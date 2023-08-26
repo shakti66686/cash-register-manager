@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main-body {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-section {
+  background-color: bisque;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 40vw;
+}
+.top {
+  text-align: center;
+  flex-direction: column;
+  width: 30vw;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.top h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.center {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  border: 2px solid black;
+
+  flex: 2;
+}
+.center #bill-amount {
+  outline: none;
+  border: none;
+  background-color: antiquewhite;
+  height: 5vh;
+  width: 90%;
+  margin-bottom: 10px;
+}
+.center h3 {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.center #cash-amount {
+  outline: none;
+  border: none;
+  background-color: antiquewhite;
+  height: 5vh;
+  width: 90%;
+}
+#button {
+  margin-top: 10px;
+  width: 6vw;
+  height: 5vh;
+  font-size: 15px;
+}
+.bottom {
+  display: flex;
+  width: 30vw;
+  flex: 1;
+}
+/* css for table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+/* responshivness */
+@media only screen and (max-width: 600px) {
+  body {
+  }
+  .main-body {
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-section {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 95%;
+  }
+  .top {
+    background-color: aqua;
+    text-align: center;
+    flex-direction: column;
+    width: 90%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  .top h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  .center {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border: 2px solid black;
+    background-color: beige;
+    flex: 2;
+  }
+  .center #bill-amount {
+    height: 5vh;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .center h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .center #cash-amount {
+    height: 5vh;
+    width: 90%;
+  }
+  #button {
+    margin-top: 10px;
+    width: 20vw;
+    height: 5vh;
+    font-size: 20px;
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: aquamarine;
+    flex: 1;
+  }
+
+  th,
+  td {
+    padding: 4px;
+    font-size: 12px; /* Optional: Adjust font size for smaller screens */
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+}
