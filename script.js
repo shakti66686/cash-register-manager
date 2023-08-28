@@ -1,6 +1,6 @@
 let bill = document.querySelector("#bill-amount");
 let cash = document.querySelector("#cash-amount");
-const cheakButton = document.querySelector("#button");
+let cheakButton = document.querySelector("#button");
 let print = document.querySelectorAll(".notes-number");
 const notes = [2000, 500, 200, 100, 50, 20, 10, 5, 1];
 cheakButton.addEventListener("click", function countNotes() {
