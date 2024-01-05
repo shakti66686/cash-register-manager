@@ -152,18 +152,59 @@ th {
     align-items: center;
     justify-content: center;
     width: 90%;
-    background-color: aquamarine;
+
     flex: 1;
   }
 
   th,
   td {
     padding: 4px;
-    font-size: 12px; /* Optional: Adjust font size for smaller screens */
+    font-size: 12px;
   }
   * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .main-section {
+    background-color: bisque;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 65vw;
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+
+    flex: 1;
+  }
+
+  th,
+  td {
+    padding: 7px;
+    font-size: 15px;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .center {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55vw;
+    border: 2px solid black;
+
+    flex: 2;
   }
 }
